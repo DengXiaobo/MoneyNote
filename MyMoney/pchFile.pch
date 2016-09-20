@@ -1,0 +1,30 @@
+//
+//  pchFile.pch
+//  MyMoney
+//
+//  Created by Dengxiaobo on 16/6/17.
+//  Copyright © 2016年 Dengxiaobo. All rights reserved.
+//
+
+#ifndef pchFile_pch
+#define pchFile_pch
+
+#define SCREENWIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT  [UIScreen mainScreen].bounds.size.height
+
+#define CONTROLHEIGHT       60
+#define LINECOLOR           [UIColor colorWithRed:(240 / 255.0) green:(240 / 255.0) blue:(240 / 255.0) alpha:1]
+
+#define MONEY_OUT_COLOR       [UIColor colorWithRed:(40 / 255.0) green:(186 / 255.0) blue:(140 / 255.0) alpha:1]
+#define MONEY_IN_COLOR       [UIColor colorWithRed:(230 / 255.0) green:(100 / 255.0) blue:(100 / 255.0) alpha:1]
+
+#define TABLEVIEW_BACKGROUND_COLOR       [UIColor colorWithRed:(255 / 255.0) green:(255 / 255.0) blue:(200 / 255.0) alpha:1]
+
+#define AccountBookChangedNotification @"AccountBookChangedNotification"
+
+#import "MoneySingleton.h"
+#import "NSDate+helper.h"
+#import "UIImage+combine.h"
+#import "UILabel+Extend.h"
+
+#endif /* pchFile_pch */
